@@ -1,0 +1,21 @@
+
+# Secrets
+.env
+.env.*
+
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated PDF uploads and document registry
+data/
+vectoredb/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editors and operating systems
+.vscode/
+.DS_Store
+Thumbs.db
